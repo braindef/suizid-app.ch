@@ -1,0 +1,12 @@
+[submodule "suizid-app.ch-website"]
+	path = suizid-app.ch-website
+	url = ssh://github.com/braindef/suizid-app.ch-website
+[submodule "suizid-app.ch-Android"]
+	path = suizid-app.ch-Android
+	url = ssh://github.com/braindef/suizid-app.ch-Android
+[submodule "suizid-app.ch-iPhone"]
+	path = suizid-app.ch-iPhone
+	url = ssh://github.com/braindef/suizid-app.ch-iPhone
+[submodule "suizid-app.ch-XmppBot"]
+	path = suizid-app.ch-XmppBot
+	url = ssh://github.com/braindef/suizid-app.ch-XmppBot
