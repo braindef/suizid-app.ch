@@ -10,3 +10,6 @@
 [submodule "suizid-app.ch-XmppBot"]
 	path = suizid-app.ch-XmppBot
 	url = ssh://github.com/braindef/suizid-app.ch-XmppBot
+[submodule "suizid-app.ch-WindowsPhone"]
+	path = suizid-app.ch-WindowsPhone
+	url = ssh://github.com/braindef/suizid-app.ch-WindowsPhone
