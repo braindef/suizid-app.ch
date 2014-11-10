@@ -16,10 +16,13 @@ while getopts ':hcs:' option; do
        exit
        ;;
     c) git clone --recursive https://github.com/braindef/suizid-app.ch
+       cd suizid-app.ch
+       git submodule init
+       git submodule update
        exit
        ;;
     s) website=$OPTARG
-       find ./suizid-app.ch -type f -print0 | xargs -0 sed -i 's/ns3.ignored.ch/'$website'/g'
+       find . -type f -print0 | xargs -0 sed -i 's/ns3.ignored.ch/'$website'/g'
        ;;
     :) printf "missing argument for -%s\n" "$OPTARG" >&2
        echo "$usage" >&2
